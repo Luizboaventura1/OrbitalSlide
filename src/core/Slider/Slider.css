@@ -1,0 +1,38 @@
+.orbital-slider {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+  padding: 0 50px;
+}
+
+.orbital-slider-container {
+  min-width: 100%;
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  transition: left 0.4s ease-in-out;
+}
+
+.orbital-slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  height: 500px;
+}
+
+.orbital-button-prev,
+.orbital-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.orbital-button-prev {
+  left: 30px;
+}
+
+.orbital-button-next {
+  right: 30px;
+}
