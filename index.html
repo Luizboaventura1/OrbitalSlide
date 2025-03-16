@@ -1,8 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./public/OrbitalSlide-Logo.svg" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="./public/OrbitalSlide-Logo.svg"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,27 +25,56 @@
     />
     <meta name="author" content="Luiz Henrique" />
 
-    <meta property="og:title" content="OrbitalSlide - Lightweight Carousel Library" />
+    <meta
+      property="og:title"
+      content="OrbitalSlide - Lightweight Carousel Library"
+    />
     <meta
       property="og:description"
       content="OrbitalSlide is a lightweight and customizable carousel library built with TypeScript, pure CSS, and HTML."
     />
-    <meta property="og:url" content="https://github.com/Luizboaventura1/OrbitalSlide" />
+    <meta
+      property="og:url"
+      content="https://github.com/Luizboaventura1/OrbitalSlide"
+    />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://github.com/user-attachments/assets/67240545-39af-4e01-a481-dabe96445a47" />
+    <meta
+      property="og:image"
+      content="https://github.com/user-attachments/assets/67240545-39af-4e01-a481-dabe96445a47"
+    />
 
-    <meta property="twitter:title" content="OrbitalSlide - Lightweight Carousel Library" />
+    <meta
+      property="twitter:title"
+      content="OrbitalSlide - Lightweight Carousel Library"
+    />
     <meta
       property="twitter:description"
       content="OrbitalSlide is a lightweight and customizable carousel library built with TypeScript, pure CSS, and HTML."
     />
-    <meta property="twitter:url" content="https://github.com/Luizboaventura1/OrbitalSlide" />
-    <meta property="twitter:image" content="https://github.com/user-attachments/assets/67240545-39af-4e01-a481-dabe96445a47" />
+    <meta
+      property="twitter:url"
+      content="https://github.com/Luizboaventura1/OrbitalSlide"
+    />
+    <meta
+      property="twitter:image"
+      content="https://github.com/user-attachments/assets/67240545-39af-4e01-a481-dabe96445a47"
+    />
 
     <meta name="robots" content="index, follow" />
+
+    <link rel="stylesheet" href="./src/core/Slider/Slider.css" />
   </head>
   <body>
+    <div class="orbital-slider">
+      <div class="orbital-slider-container">
+        <div class="orbital-slide">Slide 1</div>
+        <div class="orbital-slide">Slide 2</div>
+        <div class="orbital-slide">Slide 3</div>
+      </div>
 
+      <div class="orbital-button-prev">&lt;</div>
+      <div class="orbital-button-next">&gt;</div>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
