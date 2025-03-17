@@ -1,3 +1,5 @@
+import "./index.css"
+
 class Slider {
   private sliderContainer: HTMLElement;
   private slides: HTMLElement[];
