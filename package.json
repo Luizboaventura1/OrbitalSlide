@@ -1,7 +1,30 @@
 {
   "name": "orbitalslide",
-  "private": true,
   "version": "0.1.0",
+  "description": "A lightweight and responsive slider component.",
+  "main": "./dist/orbitalslide.js",
+  "module": "./dist/orbitalslide.js",
+  "types": "./dist/orbitalslide.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "slider",
+    "carousel",
+    "responsive",
+    "javascript",
+    "component"
+  ],
+  "author": "luizhenrique9x09@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Luizboaventura1/orbitalslide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Luizboaventura1/orbitalslide/issues"
+  },
+  "homepage": "https://github.com/Luizboaventura1/orbitalslide#readme",
   "type": "module",
   "scripts": {
     "dev": "vite",

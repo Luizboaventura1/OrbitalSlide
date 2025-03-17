@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach } from "vitest"
-import Slider from "../core/Slider/Slider"
+import Slider from "../core/Slider"
 
 describe("Slider", () => {
   let sliderElement: HTMLElement

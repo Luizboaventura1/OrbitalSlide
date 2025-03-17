@@ -1,6 +1,6 @@
 import "./global.css"
 
-import Slider from "./core/Slider/Slider"
+import Slider from "./core/Slider/index"
 
 document.addEventListener("DOMContentLoaded", () => {
   const sliderElement = document.querySelector(".orbital-slider") as HTMLElement;
