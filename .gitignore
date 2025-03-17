@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Should only be used in a development environment
+
+src/global.css
+src/main.ts
+index.html
